@@ -11,6 +11,12 @@
 		6ACA876E2A1A9A7D008D1507 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ACA876D2A1A9A7D008D1507 /* ContentView.swift */; };
 		6ACA87702A1A9A7F008D1507 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6ACA876F2A1A9A7F008D1507 /* Assets.xcassets */; };
 		6ACA87732A1A9A7F008D1507 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6ACA87722A1A9A7F008D1507 /* Preview Assets.xcassets */; };
+		6ACA877C2A1A9AAD008D1507 /* modelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ACA877B2A1A9AAD008D1507 /* modelView.swift */; };
+		6ACA877E2A1AB06E008D1507 /* Model2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ACA877D2A1AB06E008D1507 /* Model2View.swift */; };
+		6ACA87802A1AC494008D1507 /* ShoppingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ACA877F2A1AC494008D1507 /* ShoppingView.swift */; };
+		6ACA87822A1AD952008D1507 /* RevenueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ACA87812A1AD952008D1507 /* RevenueView.swift */; };
+		6ACA87842A1AE39B008D1507 /* MessagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ACA87832A1AE39B008D1507 /* MessagesView.swift */; };
+		6ACA87862A1AE9D6008D1507 /* FoodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ACA87852A1AE9D6008D1507 /* FoodView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,12 @@
 		6ACA876D2A1A9A7D008D1507 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6ACA876F2A1A9A7F008D1507 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6ACA87722A1A9A7F008D1507 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6ACA877B2A1A9AAD008D1507 /* modelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = modelView.swift; sourceTree = "<group>"; };
+		6ACA877D2A1AB06E008D1507 /* Model2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model2View.swift; sourceTree = "<group>"; };
+		6ACA877F2A1AC494008D1507 /* ShoppingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingView.swift; sourceTree = "<group>"; };
+		6ACA87812A1AD952008D1507 /* RevenueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RevenueView.swift; sourceTree = "<group>"; };
+		6ACA87832A1AE39B008D1507 /* MessagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesView.swift; sourceTree = "<group>"; };
+		6ACA87852A1AE9D6008D1507 /* FoodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,9 +64,15 @@
 			isa = PBXGroup;
 			children = (
 				6ACA876B2A1A9A7D008D1507 /* ModelAppApp.swift */,
+				6ACA877B2A1A9AAD008D1507 /* modelView.swift */,
 				6ACA876D2A1A9A7D008D1507 /* ContentView.swift */,
 				6ACA876F2A1A9A7F008D1507 /* Assets.xcassets */,
 				6ACA87712A1A9A7F008D1507 /* Preview Content */,
+				6ACA877D2A1AB06E008D1507 /* Model2View.swift */,
+				6ACA877F2A1AC494008D1507 /* ShoppingView.swift */,
+				6ACA87812A1AD952008D1507 /* RevenueView.swift */,
+				6ACA87832A1AE39B008D1507 /* MessagesView.swift */,
+				6ACA87852A1AE9D6008D1507 /* FoodView.swift */,
 			);
 			path = ModelApp;
 			sourceTree = "<group>";
@@ -137,7 +155,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6ACA87802A1AC494008D1507 /* ShoppingView.swift in Sources */,
+				6ACA87822A1AD952008D1507 /* RevenueView.swift in Sources */,
 				6ACA876E2A1A9A7D008D1507 /* ContentView.swift in Sources */,
+				6ACA877E2A1AB06E008D1507 /* Model2View.swift in Sources */,
+				6ACA87862A1AE9D6008D1507 /* FoodView.swift in Sources */,
+				6ACA87842A1AE39B008D1507 /* MessagesView.swift in Sources */,
+				6ACA877C2A1A9AAD008D1507 /* modelView.swift in Sources */,
 				6ACA876C2A1A9A7D008D1507 /* ModelAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
